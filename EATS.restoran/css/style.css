@@ -1,0 +1,237 @@
+
+
+.main-container{
+    max-width: 1105px;
+    margin: 0 auto ;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px auto;
+}
+
+.nav-ul{
+    list-style: none;
+    padding-right: 30px;
+}
+
+.nav-li{
+    display: inline-block;
+}
+
+.nav-li:not(:last-of-type){
+    margin-right: 90px;
+}
+
+.nav-link{
+    color: black;
+    text-decoration: none;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 28px;
+}
+
+.nav-link:hover{
+    color: #FA4A0C;
+}
+
+.app{
+    color: white;
+    background-image: url("../img/app-back.png");
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 80px 0  162px;
+}
+
+.restaurant-app{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.app-title{
+    margin: 10px auto;
+    font-weight: bold;
+    font-size: 58px;
+    line-height: 80px;
+    max-width: 650px;
+}
+
+.app-text{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    margin-bottom: 54px;
+}
+
+.delivery-button{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    width: 236px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    background: none;
+    border: 1px solid white;
+    margin-right: 16px;
+}
+
+.delivery-button:hover{
+    border: 1px solid #FA4A0C;
+    color: white;
+    background-color: #FA4A0C;
+}
+.menu-button{
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+    width: 236px;
+    height: 68px;
+    color: white;
+    border-radius: 30px;
+    background: none;
+    border: 1px solid white;
+}
+
+.menu-button:hover{
+    border: 1px solid #FA4A0C;
+    color: white;
+    background-color: #FA4A0C;
+}
+
+.order{
+    color: white;
+    background-image: url("../img/order-back.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 141px 0  130px;
+    text-align: center;
+}
+
+.order-title{
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.order-slogan{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+}
+
+
+.playstore-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid white;
+    margin-right: 16px;
+}
+
+.playstore-button:hover{
+    border: 1px solid #FA4A0C;
+    color: white;
+    background-color: #FA4A0C;
+}
+
+.app-store-button{
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 28px;
+    width: 150px;
+    height: 40px;
+    color: white;
+    border-radius: 10px;
+    background: none;
+    border: 1px solid white;
+}
+
+.app-store-button:hover{
+    border: 1px solid #FA4A0C;
+    color: white;
+    background-color: #FA4A0C;
+}
+
+.mobile{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+.mobile-title{
+    color: #FA4A0C;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.mobile-text{
+    max-width: 460px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.mobile-slogan{
+    color: #737373;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 467px;
+}
+
+.mobile-second{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px;
+}
+
+.mobile-title-second{
+    color: #FA4A0C;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 36px;
+}
+
+.mobile-text-second{
+    max-width: 480px;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 57px;
+}
+
+.mobile-slogan-second{
+    color: #737373;
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 38px;
+    max-width: 467px;
+}
+
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.footer-social-list{
+    list-style: none;
+    display: flex;
+}
+
+.footer-social-media{
+    margin-right: 10px;
+}
